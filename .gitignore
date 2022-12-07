@@ -3,6 +3,8 @@ Thumbs.db*
 HELP.md
 .gradle
 build/
+/.idea/
+
 
 
 ### STS ###
@@ -41,6 +43,8 @@ out/
 *.rar
 
 ### Exclusions ###
+!gradle/wrapper/gradle-wrapper.jar
+!artifacts/app-ibank-build-for-testers.jar
 
 !**/src/main/**
 !**/src/test/**
